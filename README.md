@@ -22,7 +22,7 @@
   
 ## 使用方式
 1. 將整個專案以 zip 格式下載下來
-2. 將`plugin.audio.taiwanradio`(含資料夾)打包成`kodi-taiwanradio.zip`
+2. 將`plugin.audio.taiwanradio`(含資料夾)打包成`plugin.audio.taiwanradio.zip` (已經有壓縮好的版本可以直接下載！)
 3. 匯入安裝 KODI 的裝置
 4. 選擇 "附加元件" -> "從 zip 檔案安裝"
 5. 選擇這個附加元件的 zip
@@ -108,3 +108,17 @@
 
    ```
 4. 將修改好的專案照使用方式的第2.步打包成 `zip` ，重開 KODI 後重新匯入試試！
+  
+## One more thing
+另外釋出一版本依賴Python 2.7，可以用於較老的系統(如Android 4.2 + Kodi 16)，不過測試 **!!某些需安全連線的電台無法建立；以及m3u8格式的電台播放會有斷續、重播問題!!**
+1. 將`xbmc.python-2.25.0.zip`與`plugin.audio.taiwanradio.old.zip`放入裝置之`/sdcard`
+2. 先裝`xbmc.python-2.25.0.zip`，再裝`plugin.audio.taiwanradio.old.zip`
+3. 一樣去音樂外掛程式找尋電台外掛，即可點選電台收聽！
+  
+![電台選單](screenshots/Screenshot_2025-10-27-13-57-56.png)
+  
+![電台選項](screenshots/Screenshot_2025-10-27-13-58-29.png)
+  
+![附加元件選單](screenshots/Screenshot_2025-10-27-13-58-11.png)
+  
+![現正播放示意A](screenshots/Screenshot_2025-10-27-13-58-45.png)
